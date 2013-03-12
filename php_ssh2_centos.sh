@@ -8,10 +8,11 @@ make install
 
 cd /opt/
 wget http://pecl.php.net/get/ssh2
-vxzf ssh2
+tar vxzf ssh2
 cd `ls -rd ssh2-*`
 phpize
 ./configure --with-ssh2
 make -j4
 make install
 echo "extension = /usr/lib64/php/modules/ssh2.so" >> /etc/php.ini
+php --ri ssh2
