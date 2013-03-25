@@ -15,7 +15,10 @@ centos
 cd /opt && wget https://github.com/farikd/LinuxDeploy/raw/master/php_ssh2_centos.sh && sh ./php_ssh2_centos.sh
 ```
 
-
+### php redis.so mongo.so
+```shell
+cd /opt && wget https://github.com/farikd/LinuxDeploy/raw/master/php_phpredis_mongo_ubuntu.sh && sh ./php_phpredis_mongo_ubuntu.sh
+```
 
 ### mongodb
 ubuntu
@@ -28,3 +31,4 @@ ubuntu
 ```shell
 cd /opt && wget https://github.com/farikd/LinuxDeploy/raw/master/nodejs_npm_ubuntu.sh && sh ./nodejs_npm_ubuntu.sh
 ```
+
