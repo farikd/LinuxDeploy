@@ -22,3 +22,9 @@ ubuntu
 ```shell
 cd /opt && wget https://github.com/farikd/LinuxDeploy/raw/master/mongodb_ubuntu.sh && sh ./mongodb_ubuntu.sh
 ```
+
+### nodejs & npm
+ubuntu
+```shell
+cd /opt && wget https://github.com/farikd/LinuxDeploy/raw/master/nodejs_npm_ubuntu.sh && sh ./nodejs_npm_ubuntu.sh
+```
