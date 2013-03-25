@@ -6,7 +6,7 @@ cd /opt && wget https://raw.github.com/farikd/LinuxDeploy/master/redis/centos_2.
 ```
 ubuntu, debian
 ```shell
-cd /opt && wget http://redis.googlecode.com/files/redis-2.6.11.tar.gz && tar xzf redis-2.6.11.tar.gz && cd redis-2.6.11 && make -j8 && make install && sh utils/install_server.sh
+cd /opt && wget http://redis.googlecode.com/files/redis-2.6.11.tar.gz && tar xzf redis-2.6.11.tar.gz && cd redis-2.6.11 && make -j8 && make install && cd utils && sh install_server.sh
 ```
 
 ### php ssh2
