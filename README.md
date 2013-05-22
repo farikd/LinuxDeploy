@@ -2,7 +2,7 @@
 
 centos
 ```shell
-cd /opt && wget https://raw.github.com/farikd/LinuxDeploy/master/redis/centos_2.6.12.sh && sh ./centos_2.6.12.sh
+cd /opt && wget https://raw.github.com/farikd/LinuxDeploy/master/redis/centos_2.6.13.sh && sh ./centos_2.6.13.sh
 ```
 ubuntu, debian 2.6.13
 ```shell
