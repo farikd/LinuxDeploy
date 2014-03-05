@@ -11,7 +11,7 @@ make install
 cd /opt/
 wget https://npmjs.org/install.sh --no-check-certificate
 sh install.sh
-npm install redis -g && npm install forever -g && npm install socket.io -g
+npm install redis -g && npm install pm2 -g
 
 node -v
 npm -v
